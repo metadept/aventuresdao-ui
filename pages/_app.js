@@ -7,7 +7,6 @@ import Layout from 'Layout'
 import { WalletProvider } from 'contexts/wallet-context'
 import { PopupProvider } from 'contexts/popup-context'
 import { ContractProvider } from 'contexts/contract-context'
-import { FarmProvider } from 'contexts/farm-context'
 import AvawareWeb3Provider from 'utils/hocs/AvawareWeb3Provider'
 import * as COMMON_CONSTANTS from 'utils/constants/common'
 import { BANNER_IMAGE_PATH } from 'utils/constants/image-paths'
@@ -50,12 +49,10 @@ function MyApp({ Component, pageProps }) {
           <WalletProvider>
             <PopupProvider>
               <ContractProvider>
-                <FarmProvider>
-                  <CssBaseline />
-                  <Layout>
-                    <Component {...pageProps} />
-                  </Layout>
-                </FarmProvider>
+                <CssBaseline />
+                <Layout>
+                  <Component {...pageProps} />
+                </Layout>
               </ContractProvider>
             </PopupProvider>
           </WalletProvider>

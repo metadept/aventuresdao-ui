@@ -3,10 +3,6 @@ const LINKS = Object.freeze({
     TITLE: 'Home',
     HREF: '/'
   },
-  DECOMISSIONED_FARM: {
-    TITLE: 'Decomissioned Farms',
-    HREF: '/decomissioned-farm'
-  },
   BUY: {
     TITLE: 'Buy',
     HREF: 'https://app.pangolin.exchange/#/swap?outputCurrency=0xdb333724fae72b4253fc3d44c8270cbbc86d147b',

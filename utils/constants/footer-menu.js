@@ -13,10 +13,6 @@ const CABBAGE_CASH_MENU = [
     HREF: 'https://app.pangolin.exchange/#/add/AVAX/0xdb333724fae72b4253fc3d44c8270cbbc86d147b',
     TITLE: 'Add Liquidity'
   },
-  {
-    ...LINKS.DECOMISSIONED_FARM,
-    IS_IN_LINK: true,
-  },
 ]
 
 const SOCIAL_MEDIA_MENU = [
