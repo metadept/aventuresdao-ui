@@ -1,7 +1,7 @@
 import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles'
 
 const fontFamily = [
-  'Oxygen',
+  'Poppins',
   'Arial',
   'Rubik',
   '-apple-system',
@@ -23,11 +23,11 @@ const theme = responsiveFontSizes(
         '@global': {
           '@font-face': [
             {
-              fontFamily: 'Oxygen',
+              fontFamily: 'Poppins',
               fontStyle: 'normal',
               fontDisplay: 'swap',
               fontWeight: 400,
-              src: `local('Oxygen'), url('/assets/fonts/Oxygen.ttf') format('truetype')`,
+              src: `local('Poppins'), url('/assets/fonts/Poppins.ttf') format('truetype')`,
             },
           ],
         },
@@ -41,8 +41,8 @@ const theme = responsiveFontSizes(
     },
     palette: {
       primary: {
-        main: '#b5e173',
-        contrastText: '#031b1e'
+        main: '#313131',
+        contrastText: '#FFFFFF'
       },
       secondary: {
         main: '#000000',
@@ -52,13 +52,13 @@ const theme = responsiveFontSizes(
         main: '#fe03b1',
       },
       background: {
-        default: '#02191d',
-        primary: '#162a2e',
-        secondary: '#0d2023'
+        default: '#ffffff',
+        primary: '#162a2e'
       },
       text: {
-        primary: '#FFFFFF',
-        secondary: '#698443',
+        primary: '#313131',
+        secondary: '#19766e',
+        third: '#39271e'
       },
     },
     custom: {
@@ -73,7 +73,7 @@ const theme = responsiveFontSizes(
         border: '#52606c'
       },
       layout: {
-        topAppBarHeight: 64,
+        topAppBarHeight: 112,
         maxFooterWidth: 520,
         maxDeskWidth: 1040
       }

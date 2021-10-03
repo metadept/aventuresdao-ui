@@ -8,10 +8,12 @@ import ButtonLink from 'components/UI/Buttons/ButtonLink'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: 'bold',
-    borderRadius: 6,
+    borderRadius: 8,
+    borderWidth: 2,
     '&:hover': {
+      borderWidth: 2,
       color: theme.palette.primary.main
     }
   },

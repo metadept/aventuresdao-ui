@@ -1,33 +1,37 @@
 
 import { memo } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import clsx from 'clsx'
 
-import { useCommonStyles } from 'styles/use-styles'
+import { HOME_HERO_IMAGE_PATH } from 'utils/constants/image-paths'
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    margin: theme.spacing(3, 0)
   },
   container: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center'
+  },
+  heroImage: {
+    width: '100%',
+    objectFit: 'contain'
   }
 }));
 
 const Home = () => {
   const classes = useStyles()
-  const commonClasses = useCommonStyles()
 
   return (
     <main className={classes.root}>
-      <div className={clsx(commonClasses.containerWidth, classes.container)}>
-        Home page
-      </div>
+      <img
+        alt='hero'
+        src={HOME_HERO_IMAGE_PATH}
+        className={classes.heroImage}
+      />
+      Home page
     </main>
   )
 }

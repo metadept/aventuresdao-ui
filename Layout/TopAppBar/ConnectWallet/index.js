@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles'
 
 import { useWallets } from 'contexts/wallet-context'
 import AvawareIdenticon from 'components/AvawareIdenticon'
-import ContainedButton from 'components/UI/Buttons/ContainedButton'
+import OutlinedButton from 'components/UI/Buttons/OutlinedButton'
 import getEllipsis from 'utils/helpers/getEllipsis'
 
 const useStyles = makeStyles(() => ({
@@ -51,11 +51,11 @@ const ConnectWallet = () => {
           </Typography>
         </div>
       ) : (
-        <ContainedButton
+        <OutlinedButton
           onClick={walletHandler}
         >
-          Connect
-        </ContainedButton>
+          Login
+        </OutlinedButton>
       )
   );
 };

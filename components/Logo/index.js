@@ -18,16 +18,16 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: 'unset'
   },
   img: {
-    height: 35,
+    height: 55,
     objectFit: 'contain',
   },
   label: {
-    fontSize: 16,
+    fontSize: 22,
     fontWeight: 'bold',
-    color: theme.palette.text.primary,
-    marginLeft: theme.spacing(0.5),
+    color: theme.palette.text.third,
+    marginLeft: theme.spacing(1),
     '& span': {
-      color: theme.palette.primary.main,
+      color: theme.palette.text.secondary,
     }
   }
 }));
@@ -52,8 +52,7 @@ const Logo = ({
         </picture>
         {isLabel &&
           <Typography className={classes.label}>
-            Adventures
-            <span>DAO</span>
+            Adventures <span>DAO</span>
           </Typography>
         }
       </a>

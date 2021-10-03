@@ -1,11 +1,9 @@
 import { memo } from 'react'
-import { AppBar, Toolbar, Typography, Hidden } from '@material-ui/core'
+import { AppBar, Toolbar } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 
-import { useContracts } from 'contexts/contract-context'
 import Logo from 'components/Logo'
-import AvawareTokenIcon from 'components/AvawareTokenIcon'
 import NavBarMenu from './NavBarMenu'
 import NavDropMenu from './NavDropMenu'
 import ConnectWallet from './ConnectWallet'
@@ -19,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: 'none',
     width: '100%',
     height: theme.custom.layout.topAppBarHeight,
-    backgroundColor: theme.palette.background.secondary
+    backgroundColor: theme.palette.background.default
   },
   toolBar: {
     display: 'flex',
@@ -29,19 +27,12 @@ const useStyles = makeStyles((theme) => ({
   container: {
     display: 'flex',
     alignItems: 'center',
-  },
-  balance: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(2)
   }
 }));
 
 const TopAppBar = () => {
   const classes = useStyles();
   const commonClasses = useCommonStyles()
-  const { balances } = useContracts()
 
   return (
     <AppBar
@@ -56,12 +47,6 @@ const TopAppBar = () => {
         <NavBarMenu />
 
         <div className={classes.container}>
-          <Hidden xsDown>
-            <AvawareTokenIcon token='CABBAGE' size={25} />
-            <Typography className={classes.balance} color='primary'>
-              {parseFloat(balances?.cabbage || 0).toFixed(8).toLocaleString()}
-            </Typography>
-          </Hidden>
           <ConnectWallet />
           <NavDropMenu />
         </div>
