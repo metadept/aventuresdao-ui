@@ -81,6 +81,7 @@ const Analytics = () => {
           mouseDragEnabled
           autoPlay
           infinite
+          ssrSilentMode={false}
           animationDuration={5000}
           responsive={responsive}
           disableButtonsControls

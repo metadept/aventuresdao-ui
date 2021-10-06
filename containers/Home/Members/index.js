@@ -94,6 +94,7 @@ const Members = () => {
           responsive={responsive}
           disableButtonsControls
           disableDotsControls
+          ssrSilentMode={false}
           className={classes.carousel}
         >
           {
