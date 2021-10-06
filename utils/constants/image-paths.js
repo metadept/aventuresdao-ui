@@ -6,6 +6,7 @@ const FIRE_ICON_IMAGE_PATH = '/assets/images/icons/fire.png'
 const SUN_ICON_IMAGE_PATH = '/assets/images/icons/sun.png'
 const MOUNTINE_ICON_IMAGE_PATH = '/assets/images/icons/mountine.png'
 const DIVIDER_ICON_IMAGE_PATH = '/assets/images/icons/divider.png'
+const GREY_DIVIDER_ICON_IMAGE_PATH = '/assets/images/icons/grey-divider.png'
 const FOOTER_LOGO_IMAGE_PATH = '/assets/images/footer/footer-logo.png'
 const FOOTER_LEFT_IMAGE_PATH = '/assets/images/footer/footer-left.png'
 const FOOTER_RIGHT_IMAGE_PATH = '/assets/images/footer/footer-right.png'
@@ -19,6 +20,7 @@ export {
   SUN_ICON_IMAGE_PATH,
   MOUNTINE_ICON_IMAGE_PATH,
   DIVIDER_ICON_IMAGE_PATH,
+  GREY_DIVIDER_ICON_IMAGE_PATH,
   FOOTER_LOGO_IMAGE_PATH,
   FOOTER_LEFT_IMAGE_PATH,
   FOOTER_RIGHT_IMAGE_PATH,

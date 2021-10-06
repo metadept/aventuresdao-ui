@@ -75,7 +75,7 @@ const theme = responsiveFontSizes(
       layout: {
         topAppBarHeight: 112,
         maxFooterWidth: 520,
-        maxDeskWidth: 1040
+        maxDeskWidth: 1296
       }
     },
   })

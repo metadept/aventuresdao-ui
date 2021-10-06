@@ -4,9 +4,8 @@ import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 
 import Logo from 'components/Logo'
-import NavBarMenu from './NavBarMenu'
+import NavBarMenu from '../NavBarMenu'
 import NavDropMenu from './NavDropMenu'
-import ConnectWallet from './ConnectWallet'
 import { useCommonStyles } from 'styles/use-styles'
 
 const useStyles = makeStyles((theme) => ({
@@ -43,13 +42,8 @@ const TopAppBar = () => {
         <div className={classes.container}>
           <Logo />
         </div>
-
         <NavBarMenu />
-
-        <div className={classes.container}>
-          <ConnectWallet />
-          <NavDropMenu />
-        </div>
+        <NavDropMenu />
       </Toolbar>
     </AppBar>
   );

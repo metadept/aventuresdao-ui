@@ -2,6 +2,10 @@
 import { memo } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
+import About from './About'
+import Projects from './Projects'
+import Members from './Members'
+import Analytics from './Analytics'
 import { HOME_HERO_IMAGE_PATH } from 'utils/constants/image-paths'
 
 const useStyles = makeStyles(() => ({
@@ -31,7 +35,10 @@ const Home = () => {
         src={HOME_HERO_IMAGE_PATH}
         className={classes.heroImage}
       />
-      Home page
+      <About />
+      <Projects />
+      <Members />
+      <Analytics />
     </main>
   )
 }

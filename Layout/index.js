@@ -10,7 +10,7 @@ const useStyles = makeStyles(() => ({
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',
-    position: 'relative'
+    position: 'relative',
   },
   container: {
     flex: '1 0 auto'

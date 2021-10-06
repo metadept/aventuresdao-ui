@@ -1,11 +1,21 @@
 
-import LINKS from 'utils/constants/links'
-
 const TOP_BAR_MENU = [
-  LINKS.HOME,
-  LINKS.BUY,
-  LINKS.CHART,
-  LINKS.LIQUIDITY
+  {
+    TITLE: 'About',
+    HREF: '#about'
+  },
+  {
+    TITLE: 'Projects',
+    HREF: '#projects'
+  },
+  {
+    TITLE: 'Members',
+    HREF: '#members'
+  },
+  {
+    TITLE: 'Analytics',
+    HREF: '#analytics'
+  }
 ]
 
 export default TOP_BAR_MENU

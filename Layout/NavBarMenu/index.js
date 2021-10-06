@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 18,
     fontWeight: 'bold',
     textTransform: 'none',
-    width: 90,
+    width: 150,
     color: theme.palette.text.primary
   },
   selected: {
