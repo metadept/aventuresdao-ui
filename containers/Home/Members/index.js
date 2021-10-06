@@ -1,5 +1,6 @@
 
 import { memo } from 'react'
+import Image from 'next/image'
 import { makeStyles } from '@material-ui/core/styles'
 import { Link, Typography } from '@material-ui/core'
 import AliceCarousel from 'react-alice-carousel'
@@ -50,8 +51,10 @@ const useStyles = makeStyles((theme) => ({
   icon: {
     width: 77,
     objectFit: 'containe',
-    marginRight: theme.spacing(1),
     borderRadius: '50%'
+  },
+  description: {
+    marginLeft: theme.spacing(1),
   },
   twitter: {
     position: 'absolute',
@@ -64,7 +67,7 @@ const responsive = {
   480: { items: 1 },
   680: { items: 2 },
   960: { items: 3 },
-  1280: { items: 4 }
+  1280: { items: 4 },
 }
 
 const Members = () => {
@@ -103,12 +106,14 @@ const Members = () => {
                 <Link href={item.twitter} target='_blank' rel='noreferrer' className={classes.twitter}>
                   <TwitterIcon />
                 </Link>
-                <img
+                <Image
                   alt={item.id}
                   src={item.icon}
+                  width={80}
+                  height={80}
                   className={classes.icon}
                 />
-                <Typography variant='h5' align='center' >
+                <Typography variant='h5' align='center' className={classes.description} >
                   {item.description}
                 </Typography>
               </div>

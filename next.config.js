@@ -3,6 +3,10 @@ module.exports = {
   env: {
     NETWORK: process.env.NETWORK,
   },
+  images: {
+    domains: ['pbs.twimg.com'],
+  },
+  ssr: false,
   webpack: (config, { dev }) => {
     if (dev) {
       config.module.rules.push({
