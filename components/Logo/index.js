@@ -52,7 +52,7 @@ const Logo = ({
         </picture>
         {isLabel &&
           <Typography className={classes.label}>
-            Adventures <span>DAO</span>
+            AVentures <span>DAO</span>
           </Typography>
         }
       </a>

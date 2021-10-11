@@ -74,7 +74,7 @@ const Analytics = () => {
         From the <span>Blog</span>
       </Typography>
       <Typography variant='h5' align='center' >
-        {`Meet Adventures team: analysts, crypto veterans & key opinion leaders.`}
+        {`Meet AVentures team: analysts, crypto veterans & key opinion leaders.`}
       </Typography>
       <div className={classes.container}>
         <AliceCarousel

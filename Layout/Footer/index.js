@@ -80,7 +80,7 @@ const Footer = () => {
           className={classes.logo}
         />
         <Typography className={classes.label}>
-          Adventures <span>DAO</span>
+          AVentures <span>DAO</span>
         </Typography>
         <NavBarMenu />
       </div>
