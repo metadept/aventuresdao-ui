@@ -184,7 +184,7 @@ const MEMBER_ITEMS = [
     icon: 'https://pbs.twimg.com/profile_images/1426643075934429197/SfsoqySm_400x400.jpg',
     twitter: 'https://twitter.com/m3t4farms',
     description: 'Meta',
-    tokens: ['CABBAGE', 'AVAX']
+    tokens: ['AVAX']
   },
   {
     id: 'Best_coder_NA',
@@ -197,7 +197,7 @@ const MEMBER_ITEMS = [
     id: 'cheetah_slow',
     icon: 'https://pbs.twimg.com/profile_images/1395883744989483014/1G-oYj2E_400x400.jpg',
     twitter: 'https://twitter.com/cheetah_slow',
-    description: 'Justin (hariseldon23)',
+    description: 'Justin',
     tokens: ['PNG']
   },
   {
