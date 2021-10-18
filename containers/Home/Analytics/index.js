@@ -5,6 +5,7 @@ import { Typography } from '@material-ui/core'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 
+import ANALYTICS from 'utils/constants/anlaytics'
 import { DIVIDER_ICON_IMAGE_PATH } from 'utils/constants/image-paths'
 import OutlinedButton from 'components/UI/Buttons/OutlinedButton'
 
@@ -85,7 +86,7 @@ const Analytics = () => {
           disableDotsControls
           className={classes.carousel}
         >
-          {ANALYTIC_ITEMS.map((item, index) =>
+          {ANALYTICS.map((item, index) =>
             <div key={index} className={classes.itemContainer}>
               <Typography variant='h5'>
                 {item.title}
@@ -102,22 +103,3 @@ const Analytics = () => {
 }
 
 export default memo(Analytics)
-
-const ANALYTIC_ITEMS = [
-  {
-    title: 'I) Introduction to AVentures DAO',
-    link: 'https://avaware.medium.com/'
-  },
-  {
-    title: 'II) Advanced farming strategies in Avalanche',
-    link: 'https://avaware.medium.com/'
-  },
-  {
-    title: 'III) Avalanche NFT ecosystem and NFT tokenomics',
-    link: 'https://avaware.medium.com/'
-  },
-  {
-    title: 'IV) Explaining Avalanche subnets and why are they important',
-    link: 'https://avaware.medium.com/'
-  }
-]

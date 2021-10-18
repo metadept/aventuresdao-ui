@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import { Grid, Typography } from '@material-ui/core'
 import clsx from 'clsx'
 
+import PROJECTS from 'utils/constants/projects'
 import { DIVIDER_ICON_IMAGE_PATH } from 'utils/constants/image-paths'
 import { useCommonStyles } from 'styles/use-styles'
 
@@ -64,7 +65,7 @@ const Projects = () => {
         Investment <span>Portfolio</span>
       </Typography>
       <Grid container spacing={4} className={classes.container}>
-        {PROJECT_ITEMS.map((item) => (
+        {PROJECTS.map((item) => (
           <Grid key={item.id} item xs={12} sm={6} md={3}>
             <div className={classes.itemContainer}>
               <img
@@ -84,26 +85,3 @@ const Projects = () => {
 }
 
 export default memo(Projects)
-
-const PROJECT_ITEMS = [
-  {
-    id: 'avaware',
-    icon: '/assets/images/projects/avaxcoin.jpg',
-    description: 'Avaxcoin'
-  },
-  {
-    id: 'cabbage-cash',
-    icon: '/assets/images/projects/cabbage-cash.jpg',
-    description: 'Cabbage Cash'
-  },
-  {
-    id: 'dinos',
-    icon: '/assets/images/projects/dinos.jpg',
-    description: 'Dinos'
-  },
-  {
-    id: 'tip-blue',
-    icon: '/assets/images/projects/tip-blue.jpg',
-    description: 'Tip Blue Farm'
-  },
-]
