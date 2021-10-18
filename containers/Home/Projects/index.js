@@ -61,7 +61,7 @@ const Projects = () => {
         align='center'
         className={classes.title}
       >
-        Upcoming <span>Projects</span>
+        Investment <span>Portfolio</span>
       </Typography>
       <Grid container spacing={4} className={classes.container}>
         {PROJECT_ITEMS.map((item) => (

@@ -38,13 +38,9 @@ const Home = () => {
         className={classes.heroImage}
       />
       <About />
+      {!isServer() && <Members />}
       <Projects />
-      {!isServer() &&
-        <>
-          <Members />
-          <Analytics />
-        </>
-      }
+      {!isServer() && <Analytics />}
     </main>
   )
 }

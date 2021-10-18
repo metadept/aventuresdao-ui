@@ -1,14 +1,10 @@
 
 import { memo } from 'react'
-import Image from 'next/image'
 import { makeStyles } from '@material-ui/core/styles'
-import { Link, Typography } from '@material-ui/core'
-import AliceCarousel from 'react-alice-carousel'
-import 'react-alice-carousel/lib/alice-carousel.css'
+import { Typography } from '@material-ui/core'
 
-import AvawareTokenIcon from 'components/AvawareTokenIcon'
-import TwitterIcon from 'components/Icons/TwitterIcon'
-import { DIVIDER_ICON_IMAGE_PATH, FOOTER_RIGHT_IMAGE_PATH } from 'utils/constants/image-paths'
+import MemberCarousel from './MemberCarousel'
+import { DIVIDER_ICON_IMAGE_PATH } from 'utils/constants/image-paths'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,67 +30,8 @@ const useStyles = makeStyles((theme) => ({
     objectFit: 'contain',
     margin: theme.spacing(2, 0)
   },
-  container: {
-    width: '100%',
-    margin: theme.spacing(5, 0)
-  },
-  carousel: {
-    width: '100%',
-  },
-  itemContainer: {
-    position: 'relative',
-    display: 'flex',
-    alignItems: 'center',
-    padding: theme.spacing(4, 3),
-    margin: theme.spacing(4),
-    border: `1px solid ${theme.custom.palette.border}`,
-  },
-  imageContainer: {
-    minWidth: 95,
-    width: 95,
-    height: 95,
-    borderRadius: '50%',
-    boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.7)',
-  },
-  icon: {
-    width: 95,
-    objectFit: 'contain',
-    borderRadius: '50%'
-  },
-  description: {
-    position: 'relative',
-    zIndex: 2,
-    marginLeft: theme.spacing(2),
-  },
-  twitter: {
-    position: 'absolute',
-    top: 16,
-    right: 16
-  },
-  rightImage: {
-    height: 120,
-    position: 'absolute',
-    top: 24,
-    right: 0,
-    objectFit: 'contain',
-    opacity: 0.3,
-  },
-  tokenContainer: {
-    position: 'absolute',
-    bottom: 16,
-    right: 16
-  },
-  tokenIcon: {
-    marginLeft: theme.spacing(0.5)
-  }
 }));
 
-const responsive = {
-  480: { items: 1 },
-  680: { items: 2 },
-  960: { items: 3 },
-  1280: { items: 4 },
-}
 
 const Members = () => {
   const classes = useStyles()
@@ -110,61 +47,13 @@ const Members = () => {
         align='center'
         className={classes.title}
       >
-        Avalanche <span>OG Squad</span>
+        AVentures <span>DAO Members</span>
       </Typography>
       <Typography variant='h5' align='center' >
-        {`Meet AVentures team: analysts, crypto veterans & key opinion leaders.`}
+        Crypto veterans, key opinion leaders and developers
       </Typography>
-      <div className={classes.container}>
-        <AliceCarousel
-          autoPlay
-          infinite
-          animationDuration={5000}
-          responsive={responsive}
-          disableButtonsControls
-          disableDotsControls
-          ssrSilentMode={false}
-          className={classes.carousel}
-        >
-          {
-            MEMBER_ITEMS.map((item) =>
-              <div key={item.id} className={classes.itemContainer}>
-                <img
-                  alt='right-image'
-                  src={FOOTER_RIGHT_IMAGE_PATH}
-                  className={classes.rightImage}
-                />
-                <Link href={item.twitter} target='_blank' rel='noreferrer' className={classes.twitter}>
-                  <TwitterIcon />
-                </Link>
-                <div className={classes.tokenContainer}>
-                  {item.tokens.map((token) => (
-                    <AvawareTokenIcon
-                      key={token}
-                      size={25}
-                      token={token}
-                      className={classes.tokenIcon}
-                    />
-                  ))}
-                </div>
-                <div className={classes.imageContainer}>
-                  <Image
-                    alt={item.id}
-                    src={item.icon}
-                    width={95}
-                    height={95}
-                    className={classes.icon}
-                  />
-                </div>
-                <Typography variant='h5' align='center' className={classes.description} >
-                  {item.description}
-                </Typography>
-
-              </div>
-            )
-          }
-        </AliceCarousel>
-      </div>
+      <MemberCarousel members={firstMembers} />
+      <MemberCarousel members={secondMembers} />
     </main>
   )
 }
@@ -181,14 +70,14 @@ const MEMBER_ITEMS = [
   },
   {
     id: 'meta',
-    icon: 'https://pbs.twimg.com/profile_images/1426643075934429197/SfsoqySm_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1449375400694517763/PBjfXdDo_400x400.png',
     twitter: 'https://twitter.com/m3t4farms',
     description: 'Meta',
     tokens: ['AVAX']
   },
   {
     id: 'Best_coder_NA',
-    icon: 'https://pbs.twimg.com/profile_images/1443348479204421633/3sxlv1eN_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1448147561412366341/tNATkKxW_400x400.jpg',
     twitter: 'https://twitter.com/Best_coder_NA',
     description: 'Leo Pangolin',
     tokens: ['SNOB', 'PNG']
@@ -197,7 +86,7 @@ const MEMBER_ITEMS = [
     id: 'cheetah_slow',
     icon: 'https://pbs.twimg.com/profile_images/1395883744989483014/1G-oYj2E_400x400.jpg',
     twitter: 'https://twitter.com/cheetah_slow',
-    description: 'Justin',
+    description: 'Slowcheetah',
     tokens: ['PNG']
   },
   {
@@ -228,4 +117,50 @@ const MEMBER_ITEMS = [
     description: 'Emre Oztimur',
     tokens: ['PNG', 'AVAX']
   },
+  {
+    id: 'TamerOvutmen',
+    icon: 'https://pbs.twimg.com/profile_images/1449719387670433794/rAxhYPIz_400x400.jpg',
+    twitter: 'https://twitter.com/TamerOvutmen',
+    description: 'Tamer Ovutmen, PhD',
+    tokens: ['PNG', 'AVAX']
+  },
+  {
+    id: 'crytovan',
+    icon: 'https://pbs.twimg.com/profile_images/1385467793362104321/H89xKtS4_400x400.jpg',
+    twitter: 'https://twitter.com/crytovan',
+    description: 'Cryptovan',
+    tokens: ['PNG', 'AVAX']
+  },
+  {
+    id: 'jtrollip',
+    icon: 'https://pbs.twimg.com/profile_images/1443337812485443585/E6gaDQfK_400x400.jpg',
+    twitter: 'https://twitter.com/jtrollip',
+    description: 'Justin Trollip',
+    tokens: ['PNG', 'AVAX']
+  },
+  {
+    id: 'ravageur77',
+    icon: 'https://pbs.twimg.com/profile_images/1437356572951392261/HlSm_zcT_400x400.jpg',
+    twitter: 'https://twitter.com/ravageur77',
+    description: 'Ravageur',
+    tokens: ['PNG', 'AVAX']
+  },
+  {
+    id: 'connorbode',
+    icon: 'https://pbs.twimg.com/profile_images/1320105220576321537/6jrxpmlL_400x400.jpg',
+    twitter: 'https://twitter.com/connorbode',
+    description: 'Connor Bode',
+    tokens: ['PNG', 'AVAX']
+  },
+  {
+    id: 'Wizardara',
+    icon: 'https://pbs.twimg.com/profile_images/1320105220576321537/6jrxpmlL_400x400.jpg',
+    twitter: 'https://twitter.com/Wizardara',
+    description: 'Mr Wizard',
+    tokens: ['PNG', 'AVAX']
+  },
 ]
+
+const middleIndex = Math.ceil(MEMBER_ITEMS.length / 2);
+const firstMembers = MEMBER_ITEMS.splice(0, middleIndex);
+const secondMembers = MEMBER_ITEMS.splice(-middleIndex);

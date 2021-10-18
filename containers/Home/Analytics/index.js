@@ -73,9 +73,6 @@ const Analytics = () => {
       >
         From the <span>Blog</span>
       </Typography>
-      <Typography variant='h5' align='center' >
-        {`Meet AVentures team: analysts, crypto veterans & key opinion leaders.`}
-      </Typography>
       <div className={classes.container}>
         <AliceCarousel
           mouseDragEnabled
@@ -108,19 +105,19 @@ export default memo(Analytics)
 
 const ANALYTIC_ITEMS = [
   {
-    title: 'What is APR?',
+    title: 'I) Introduction to AVentures DAO',
     link: 'https://avaware.medium.com/'
   },
   {
-    title: 'Advanced knowledge broken down for humans.',
+    title: 'II) Advanced farming strategies in Avalanche',
     link: 'https://avaware.medium.com/'
   },
   {
-    title: 'Advanced knowledge broken down for humans.',
+    title: 'III) Avalanche NFT ecosystem and NFT tokenomics',
     link: 'https://avaware.medium.com/'
   },
   {
-    title: 'Advanced knowledge broken down for humans.',
+    title: 'IV) Explaining Avalanche subnets and why are they important',
     link: 'https://avaware.medium.com/'
   }
 ]
