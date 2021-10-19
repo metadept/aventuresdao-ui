@@ -92,7 +92,7 @@ const MEMBERS = [
   },
   {
     id: 'Wizardara',
-    icon: 'https://pbs.twimg.com/profile_images/1320105220576321537/6jrxpmlL_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1446634163977719808/dl2bbKZK_400x400.jpg',
     twitter: 'https://twitter.com/Wizardara',
     description: 'Mr Wizard',
     tokens: ['PNG', 'AVAX']
