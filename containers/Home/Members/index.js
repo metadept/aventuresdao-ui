@@ -7,10 +7,6 @@ import MemberCarousel from './MemberCarousel'
 import MEMBERS from 'utils/constants/members'
 import { DIVIDER_ICON_IMAGE_PATH } from 'utils/constants/image-paths'
 
-const middleIndex = Math.ceil(MEMBERS.length / 2);
-const firstMembers = MEMBERS.splice(0, middleIndex);
-const secondMembers = MEMBERS.splice(-middleIndex);
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -57,8 +53,7 @@ const Members = () => {
       <Typography variant='h5' align='center' >
         Crypto veterans, key opinion leaders and developers
       </Typography>
-      <MemberCarousel members={firstMembers} />
-      <MemberCarousel members={secondMembers} />
+      <MemberCarousel members={MEMBERS} />
     </main>
   )
 }
