@@ -44,8 +44,8 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
-    minHeight: 190,
-    padding: theme.spacing(4, 3),
+    minHeight: 250,
+    padding: theme.spacing(3),
     margin: theme.spacing(4),
     border: `1px solid ${theme.custom.palette.border}`,
   },
@@ -90,6 +90,9 @@ const Analytics = () => {
             <div key={index} className={classes.itemContainer}>
               <Typography variant='h5'>
                 {item.title}
+              </Typography>
+              <Typography variant='body2' gutterBottom>
+                {item.description}
               </Typography>
               <OutlinedButton>
                 Coming Soon
