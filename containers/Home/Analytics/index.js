@@ -91,8 +91,8 @@ const Analytics = () => {
               <Typography variant='h5'>
                 {item.title}
               </Typography>
-              <OutlinedButton href={item.link} target='_blank'>
-                Start Lesson
+              <OutlinedButton>
+                Coming Soon
               </OutlinedButton>
             </div>
           )}

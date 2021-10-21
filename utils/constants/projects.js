@@ -1,23 +1,23 @@
 const PROJECTS = [
   {
     id: 'avaware',
-    icon: '/assets/images/projects/avaxcoin.jpg',
-    description: 'Avaxcoin'
+    icon: '/assets/images/no-image.png',
+    description: 'To Be Announced'
   },
   {
     id: 'cabbage-cash',
-    icon: '/assets/images/projects/cabbage-cash.jpg',
-    description: 'Cabbage Cash'
+    icon: '/assets/images/no-image.png',
+    description: 'To Be Announced'
   },
   {
     id: 'dinos',
-    icon: '/assets/images/projects/dinos.jpg',
-    description: 'Dinos'
+    icon: '/assets/images/no-image.png',
+    description: 'To Be Announced'
   },
   {
     id: 'tip-blue',
-    icon: '/assets/images/projects/tip-blue.jpg',
-    description: 'Tip Blue Farm'
+    icon: '/assets/images/no-image.png',
+    description: 'To Be Announced'
   },
 ]
 
