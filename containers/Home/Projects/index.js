@@ -68,8 +68,7 @@ const Projects = () => {
         {PROJECTS.map((item) => (
           <Grid key={item.id} item xs={12} sm={6} md={3}>
             <div className={classes.itemContainer}>
-              {/* <img alt={item.id} src={item.icon} className={classes.icon} /> */}
-              <div className={classes.icon} />
+              <img alt={item.id} src={item.icon} className={classes.icon} />
               <Typography variant='h6' align='center' >
                 {item.description}
               </Typography>
