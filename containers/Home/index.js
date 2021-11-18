@@ -5,9 +5,9 @@ import dynamic from 'next/dynamic';
 
 import About from './About'
 import Projects from './Projects'
+import Members from './Members'
 import { HOME_HERO_IMAGE_PATH } from 'utils/constants/image-paths'
 import { isServer } from 'utils/helpers/utility'
-const Members = dynamic(() => import('./Members'), { ssr: false });
 const Analytics = dynamic(() => import('./Analytics'), { ssr: false });
 
 const useStyles = makeStyles(() => ({
@@ -38,7 +38,7 @@ const Home = () => {
         className={classes.heroImage}
       />
       <About />
-      {!isServer() && <Members />}
+      <Members />
       <Projects />
       {!isServer() && <Analytics />}
     </main>
