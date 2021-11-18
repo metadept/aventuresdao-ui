@@ -2,22 +2,22 @@ const PROJECTS = [
   {
     id: 'avaware',
     icon: '/assets/images/projects/kyve.jpg',
-    description: 'To Be Announced'
+    description: ''
   },
   {
     id: 'cabbage-cash',
     icon: '/assets/images/projects/platypus.jpg',
-    description: 'To Be Announced'
+    description: ''
   },
   {
     id: 'dinos',
     icon: '/assets/images/projects/talecraft.jpg',
-    description: 'To Be Announced'
+    description: ''
   },
   {
     id: 'tip-blue',
     icon: '/assets/images/projects/colony.jpg',
-    description: 'To Be Announced'
+    description: ''
   },
 ]
 

@@ -1,7 +1,7 @@
 
-const TITLE = 'AVentures DAO - Avalanche'
+const TITLE = 'AVenturesDAO.io'
 const SITE_URL = 'https://aventures.dao'
-const DESCRIPTION = 'The AVentures DAO farm on Avalanche'
+const DESCRIPTION = 'Transparent venture DAO owned & managed by Avalache OGs'
 
 export {
   TITLE,
