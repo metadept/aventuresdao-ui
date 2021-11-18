@@ -87,9 +87,9 @@ const MemberCarousel = ({
                   className={classes.rightImage}
                 />
                 <div className={classes.headerContainer}>
-                  <Link href={item.twitter} target='_blank' rel='noreferrer' className={classes.twitter}>
+                  {/* <Link href={item.twitter} target='_blank' rel='noreferrer' className={classes.twitter}>
                     <TwitterIcon />
-                  </Link>
+                  </Link> */}
                   <div className={classes.imageContainer}>
                     <Image
                       alt={item.id}
@@ -102,7 +102,7 @@ const MemberCarousel = ({
                   <Typography variant='h5' align='center' className={classes.name} >
                     {item.name}
                   </Typography>
-                  <div className={classes.tokenContainer}>
+                  {/* <div className={classes.tokenContainer}>
                     {item.tokens.map((token) => (
                       <AvawareTokenIcon
                         key={token}
@@ -111,11 +111,13 @@ const MemberCarousel = ({
                         className={classes.tokenIcon}
                       />
                     ))}
-                  </div>
+                  </div> */}
                 </div>
-                <Typography variant='body2' className={classes.description} >
-                  {item.description}
-                </Typography>
+                {item.description &&
+                  <Typography variant='body2' className={classes.description} >
+                    {item.description}
+                  </Typography>
+                }
               </div>
             </Grid>
           )

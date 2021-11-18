@@ -4,7 +4,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1444996045583241216/UF_Aj4IH_400x400.jpg',
     twitter: 'https://twitter.com/Jomari_P',
     name: 'Jomari Peterson',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['SNOB', 'AVAX']
   },
   {
@@ -12,7 +12,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1449375400694517763/PBjfXdDo_400x400.png',
     twitter: 'https://twitter.com/m3t4farms',
     name: 'Meta',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['AVAX']
   },
   {
@@ -20,7 +20,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1459774477688967173/aNSwcswq_400x400.jpg',
     twitter: 'https://twitter.com/Best_coder_NA',
     name: 'Leo Pangolin',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['SNOB', 'PNG']
   },
   {
@@ -28,7 +28,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1395883744989483014/1G-oYj2E_400x400.jpg',
     twitter: 'https://twitter.com/cheetah_slow',
     name: 'Slowcheetah',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG']
   },
   {
@@ -36,7 +36,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1372237642054598656/czQum58J_400x400.jpg',
     twitter: 'https://twitter.com/CederNets',
     name: 'CederNets',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -44,7 +44,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1433648744537501716/_aUqZfEo_400x400.jpg',
     twitter: 'https://twitter.com/DefiCashflows',
     name: 'DΞFiCashflow$',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -52,7 +52,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1457818447589609474/bOat_O7b_400x400.jpg',
     twitter: 'https://twitter.com/rogerclu',
     name: 'Roger Lu',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -60,7 +60,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1460772991281807367/qMC_Gl5v_400x400.jpg',
     twitter: 'https://twitter.com/oztimoore',
     name: 'Emre Oztimur',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -68,7 +68,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1459391299543515138/7J9ks2PB_400x400.jpg',
     twitter: 'https://twitter.com/TamerOvutmen',
     name: 'Tamer Ovutmen, PhD',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -76,7 +76,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1460146263954018308/ZcPjp16A_400x400.jpg',
     twitter: 'https://twitter.com/crytovan',
     name: 'Cryptovan',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -84,7 +84,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1454309135932035072/i1KWVT6g_400x400.jpg',
     twitter: 'https://twitter.com/jtrollip',
     name: 'Justin Trollip',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -92,7 +92,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1437356572951392261/HlSm_zcT_400x400.jpg',
     twitter: 'https://twitter.com/ravageur77',
     name: 'Ravageur',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -100,7 +100,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1320105220576321537/6jrxpmlL_400x400.jpg',
     twitter: 'https://twitter.com/connorbode',
     name: 'Connor Bode',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
   {
@@ -108,7 +108,7 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1460756023128567808/7HGox_1O_400x400.jpg',
     twitter: 'https://twitter.com/Wizardara',
     name: 'Mr Wizard',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: '',
     tokens: ['PNG', 'AVAX']
   },
 ]

@@ -1,14 +1,14 @@
 
 import { memo } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 
 import About from './About'
 import Projects from './Projects'
 import Members from './Members'
 import { HOME_HERO_IMAGE_PATH } from 'utils/constants/image-paths'
-import { isServer } from 'utils/helpers/utility'
-const Analytics = dynamic(() => import('./Analytics'), { ssr: false });
+// import { isServer } from 'utils/helpers/utility'
+// const Analytics = dynamic(() => import('./Analytics'), { ssr: false });
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -40,7 +40,7 @@ const Home = () => {
       <About />
       <Members />
       <Projects />
-      {!isServer() && <Analytics />}
+      {/* {!isServer() && <Analytics />} */}
     </main>
   )
 }
