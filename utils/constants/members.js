@@ -11,7 +11,7 @@ const MEMBERS = [
     id: 'meta',
     icon: '/assets/images/members/MetaDept.png',
     twitter: 'https://twitter.com/m3t4farms',
-    name: 'Meta',
+    name: 'meta',
     description: '',
     tokens: ['AVAX', 'AVAWARE']
   },
@@ -114,8 +114,8 @@ const MEMBERS = [
   {
     id: 'Benny',
     icon: '/assets/images/members/Benny.png',
-    twitter: 'https://twitter.com',
-    name: 'Benny',
+    twitter: '',
+    name: 'benny',
     description: '',
     tokens: ['AVAX']
   },

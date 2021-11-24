@@ -87,9 +87,11 @@ const MemberCarousel = ({
                   className={classes.rightImage}
                 />
                 <div className={classes.headerContainer}>
-                  <Link href={item.twitter} target='_blank' rel='noreferrer' className={classes.twitter}>
-                    <TwitterIcon />
-                  </Link>
+                  {item.twitter &&
+                    <Link href={item.twitter} target='_blank' rel='noreferrer' className={classes.twitter}>
+                      <TwitterIcon />
+                    </Link>
+                  }
                   <div className={classes.imageContainer}>
                     <Image
                       alt={item.id}
