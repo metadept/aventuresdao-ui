@@ -102,7 +102,7 @@ const MemberCarousel = ({
                   <Typography variant='h5' align='center' className={classes.name} >
                     {item.name}
                   </Typography>
-                  {/* <div className={classes.tokenContainer}>
+                  <div className={classes.tokenContainer}>
                     {item.tokens.map((token) => (
                       <AvawareTokenIcon
                         key={token}
@@ -111,7 +111,7 @@ const MemberCarousel = ({
                         className={classes.tokenIcon}
                       />
                     ))}
-                  </div> */}
+                  </div>
                 </div>
                 {item.description &&
                   <Typography variant='body2' className={classes.description} >

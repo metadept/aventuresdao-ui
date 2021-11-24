@@ -5,15 +5,15 @@ const MEMBERS = [
     twitter: 'https://twitter.com/Jomari_P',
     name: 'Jomari Peterson',
     description: '',
-    tokens: ['SNOB', 'AVAX']
+    tokens: ['AVAX', 'SNOB', 'PNG']
   },
   {
     id: 'meta',
-    icon: 'https://pbs.twimg.com/profile_images/1449375400694517763/PBjfXdDo_400x400.png',
+    icon: '/assets/images/members/MetaDept.png',
     twitter: 'https://twitter.com/m3t4farms',
     name: 'Meta',
     description: '',
-    tokens: ['AVAX']
+    tokens: ['AVAX', 'AVAWARE']
   },
   {
     id: 'Best_coder_NA',
@@ -21,7 +21,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/Best_coder_NA',
     name: 'Leo Pangolin',
     description: '',
-    tokens: ['SNOB', 'PNG']
+    tokens: ['AVAX', 'PNG', 'SPERPA']
   },
   {
     id: 'cheetah_slow',
@@ -29,7 +29,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/cheetah_slow',
     name: 'Slowcheetah',
     description: '',
-    tokens: ['PNG']
+    tokens: ['AVAX', 'YAK']
   },
   {
     id: 'CederNets',
@@ -37,7 +37,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/CederNets',
     name: 'CederNets',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX', 'YOUTUBE']
   },
   {
     id: 'DefiCashflows',
@@ -45,7 +45,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/DefiCashflows',
     name: 'DΞFiCashflow$',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX']
   },
   {
     id: 'rogerclu',
@@ -53,7 +53,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/rogerclu',
     name: 'Roger Lu',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX']
   },
   {
     id: 'oztimoore',
@@ -61,7 +61,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/oztimoore',
     name: 'Emre Oztimur',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX']
   },
   {
     id: 'TamerOvutmen',
@@ -69,15 +69,15 @@ const MEMBERS = [
     twitter: 'https://twitter.com/TamerOvutmen',
     name: 'Tamer Ovutmen, PhD',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX', 'PNG']
   },
   {
     id: 'crytovan',
     icon: 'https://pbs.twimg.com/profile_images/1460146263954018308/ZcPjp16A_400x400.jpg',
     twitter: 'https://twitter.com/crytovan',
-    name: 'Cryptovan',
+    name: 'Sevan',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX']
   },
   {
     id: 'jtrollip',
@@ -85,7 +85,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/jtrollip',
     name: 'Justin Trollip',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX', 'PNG', 'SPERPA']
   },
   {
     id: 'ravageur77',
@@ -93,7 +93,7 @@ const MEMBERS = [
     twitter: 'https://twitter.com/ravageur77',
     name: 'Ravageur',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX', 'YAK']
   },
   {
     id: 'connorbode',
@@ -101,16 +101,64 @@ const MEMBERS = [
     twitter: 'https://twitter.com/connorbode',
     name: 'Connor Bode',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX']
   },
   {
-    id: 'Wizardara',
-    icon: 'https://pbs.twimg.com/profile_images/1460756023128567808/7HGox_1O_400x400.jpg',
-    twitter: 'https://twitter.com/Wizardara',
-    name: 'Mr Wizard',
+    id: 'DaimonLaw',
+    icon: 'https://pbs.twimg.com/profile_images/1448639594904363014/s1s1zq6S_400x400.jpg',
+    twitter: 'https://twitter.com/DaimonLaw',
+    name: 'Paul Imseih',
     description: '',
-    tokens: ['PNG', 'AVAX']
+    tokens: ['AVAX', 'DL']
+  },
+  {
+    id: 'Benny',
+    icon: '/assets/images/members/Benny.png',
+    twitter: 'https://twitter.com',
+    name: 'Benny',
+    description: '',
+    tokens: ['AVAX']
+  },
+  {
+    id: 'visokodrustvo',
+    icon: 'https://pbs.twimg.com/profile_images/1288425001004290049/UyvuoVRa_400x400.jpg',
+    twitter: 'https://twitter.com/visokodrustvo',
+    name: 'Mihajlo Popesku',
+    description: '',
+    tokens: ['AVAX']
+  },
+  {
+    id: 'YakMan',
+    icon: 'https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png',
+    twitter: 'https://twitter.com/YakMan',
+    name: 'YakMan',
+    description: '',
+    tokens: ['AVAX', 'YAK']
+  },
+  {
+    id: 'StovenLabs',
+    icon: 'https://pbs.twimg.com/profile_images/1433461181067444227/ng3BsB7__400x400.jpg',
+    twitter: 'https://twitter.com/StovenLabs',
+    name: 'StovenLabs',
+    description: '',
+    tokens: ['AVAX', 'PNG']
+  },
+  {
+    id: 'exk200',
+    icon: 'https://pbs.twimg.com/profile_images/1459600370242625545/bKPnyywB_400x400.jpg',
+    twitter: 'https://twitter.com/exk200',
+    name: 'Eric Kang',
+    description: '',
+    tokens: ['AVAX', 'AVALABS']
+  },
+  {
+    id: 'patel_crypto',
+    icon: 'https://pbs.twimg.com/profile_images/1421884408227766280/eNy3GvQd_400x400.jpg',
+    twitter: 'https://twitter.com/patel_crypto',
+    name: 'Rahul',
+    description: '',
+    tokens: ['OG']
   },
 ]
-
+ 
 export default MEMBERS

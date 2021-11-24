@@ -4,7 +4,7 @@ module.exports = {
     NETWORK: process.env.NETWORK,
   },
   images: {
-    domains: ['pbs.twimg.com'],
+    domains: ['pbs.twimg.com', 'abs.twimg.com'],
   },
   ssr: false,
   webpack: (config, { dev }) => {
