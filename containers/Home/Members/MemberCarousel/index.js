@@ -6,7 +6,7 @@ import { Grid, Link, Typography } from '@material-ui/core'
 
 import AvawareTokenIcon from 'components/AvawareTokenIcon'
 import TwitterIcon from 'components/Icons/TwitterIcon'
-import { FOOTER_RIGHT_IMAGE_PATH } from 'utils/constants/image-paths'
+import { PROFILE_BACKGROUND_IMAGE_PATH } from 'utils/constants/image-paths'
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -83,7 +83,7 @@ const MemberCarousel = ({
               <div className={classes.itemContainer}>
                 <img
                   alt='right-image'
-                  src={FOOTER_RIGHT_IMAGE_PATH}
+                  src={PROFILE_BACKGROUND_IMAGE_PATH}
                   className={classes.rightImage}
                 />
                 <div className={classes.headerContainer}>

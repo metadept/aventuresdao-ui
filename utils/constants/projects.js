@@ -19,6 +19,11 @@ const PROJECTS = [
     icon: '/assets/images/projects/colony.jpg',
     description: ''
   },
+  {
+    id: 'heros-of-nft',
+    icon: '/assets/images/projects/herosNFT.jpg',
+    description: ''
+  },
 ]
 
 export default PROJECTS

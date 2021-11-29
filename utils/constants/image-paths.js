@@ -10,6 +10,7 @@ const GREY_DIVIDER_ICON_IMAGE_PATH = '/assets/images/icons/grey-divider.png'
 const FOOTER_LOGO_IMAGE_PATH = '/assets/images/footer/footer-logo.png'
 const FOOTER_LEFT_IMAGE_PATH = '/assets/images/footer/footer-left.png'
 const FOOTER_RIGHT_IMAGE_PATH = '/assets/images/footer/footer-right.png'
+const PROFILE_BACKGROUND_IMAGE_PATH = '/assets/images/footer/profile-bg.png'
 const NO_IMAGE_PATH = '/assets/images/no-image.png'
 
 export {
@@ -24,5 +25,6 @@ export {
   FOOTER_LOGO_IMAGE_PATH,
   FOOTER_LEFT_IMAGE_PATH,
   FOOTER_RIGHT_IMAGE_PATH,
+  PROFILE_BACKGROUND_IMAGE_PATH,
   NO_IMAGE_PATH
 };

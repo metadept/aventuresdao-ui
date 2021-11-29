@@ -1,19 +1,19 @@
 const MEMBERS = [
   {
-    id: 'Jomari_P',
-    icon: 'https://pbs.twimg.com/profile_images/1444996045583241216/UF_Aj4IH_400x400.jpg',
-    twitter: 'https://twitter.com/Jomari_P',
-    name: 'Jomari Peterson',
-    description: '',
-    tokens: ['AVAX', 'SNOB', 'PNG']
-  },
-  {
     id: 'meta',
     icon: '/assets/images/members/MetaDept.png',
     twitter: 'https://twitter.com/m3t4farms',
     name: 'meta',
     description: '',
     tokens: ['AVAX', 'AVAWARE']
+  },
+  {
+    id: 'Jomari_P',
+    icon: 'https://pbs.twimg.com/profile_images/1444996045583241216/UF_Aj4IH_400x400.jpg',
+    twitter: 'https://twitter.com/Jomari_P',
+    name: 'Jomari Peterson',
+    description: '',
+    tokens: ['AVAX', 'SNOB', 'PNG']
   },
   {
     id: 'Best_coder_NA',
@@ -24,8 +24,24 @@ const MEMBERS = [
     tokens: ['AVAX', 'PNG', 'SPERPA']
   },
   {
+    id: 'jtrollip',
+    icon: 'https://pbs.twimg.com/profile_images/1454309135932035072/i1KWVT6g_400x400.jpg',
+    twitter: 'https://twitter.com/jtrollip',
+    name: 'Justin Trollip',
+    description: '',
+    tokens: ['AVAX', 'PNG', 'SPERPA']
+  },
+  {
+    id: 'ravageur77',
+    icon: 'https://pbs.twimg.com/profile_images/1437356572951392261/HlSm_zcT_400x400.jpg',
+    twitter: 'https://twitter.com/ravageur77',
+    name: 'Ravageur',
+    description: '',
+    tokens: ['AVAX', 'YAK']
+  },
+  {
     id: 'cheetah_slow',
-    icon: 'https://pbs.twimg.com/profile_images/1395883744989483014/1G-oYj2E_400x400.jpg',
+    icon: '/assets/images/members/Slowcheetah.png',
     twitter: 'https://twitter.com/cheetah_slow',
     name: 'Slowcheetah',
     description: '',
@@ -80,22 +96,6 @@ const MEMBERS = [
     tokens: ['AVAX']
   },
   {
-    id: 'jtrollip',
-    icon: 'https://pbs.twimg.com/profile_images/1454309135932035072/i1KWVT6g_400x400.jpg',
-    twitter: 'https://twitter.com/jtrollip',
-    name: 'Justin Trollip',
-    description: '',
-    tokens: ['AVAX', 'PNG', 'SPERPA']
-  },
-  {
-    id: 'ravageur77',
-    icon: 'https://pbs.twimg.com/profile_images/1437356572951392261/HlSm_zcT_400x400.jpg',
-    twitter: 'https://twitter.com/ravageur77',
-    name: 'Ravageur',
-    description: '',
-    tokens: ['AVAX', 'YAK']
-  },
-  {
     id: 'connorbode',
     icon: 'https://pbs.twimg.com/profile_images/1320105220576321537/6jrxpmlL_400x400.jpg',
     twitter: 'https://twitter.com/connorbode',
@@ -110,14 +110,6 @@ const MEMBERS = [
     name: 'Paul Imseih',
     description: '',
     tokens: ['AVAX', 'DL']
-  },
-  {
-    id: 'Benny',
-    icon: '/assets/images/members/Benny.png',
-    twitter: '',
-    name: 'benny',
-    description: '',
-    tokens: ['AVAX']
   },
   {
     id: 'visokodrustvo',
@@ -152,6 +144,14 @@ const MEMBERS = [
     tokens: ['AVAX', 'AVALABS']
   },
   {
+    id: 'Benny',
+    icon: '/assets/images/members/Benny.png',
+    twitter: '',
+    name: 'benny',
+    description: '',
+    tokens: ['AVAX']
+  },
+  {
     id: 'patel_crypto',
     icon: 'https://pbs.twimg.com/profile_images/1421884408227766280/eNy3GvQd_400x400.jpg',
     twitter: 'https://twitter.com/patel_crypto',
@@ -160,5 +160,5 @@ const MEMBERS = [
     tokens: ['OG']
   },
 ]
- 
+
 export default MEMBERS
