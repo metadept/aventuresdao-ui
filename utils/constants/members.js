@@ -51,7 +51,7 @@ const MEMBERS = [
     id: 'CederNets',
     icon: 'https://pbs.twimg.com/profile_images/1372237642054598656/czQum58J_400x400.jpg',
     twitter: 'https://twitter.com/CederNets',
-    name: 'CederNets',
+    name: 'CederNet',
     description: '',
     tokens: ['AVAX', 'YOUTUBE']
   },
