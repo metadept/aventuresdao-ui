@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     display: 'flex',
     flexDirection: 'column',
+    cursor: 'pointer',
     padding: theme.spacing(2),
     borderRadius: 2,
     border: `2px solid ${theme.custom.palette.border}`,
@@ -101,7 +102,7 @@ const MemberCarousel = ({
                       className={classes.icon}
                     />
                   </div>
-                  <Typography variant='h5' align='center' className={classes.name} >
+                  <Typography variant='h5' className={classes.name} >
                     {item.name}
                   </Typography>
                   <div className={classes.tokenContainer}>

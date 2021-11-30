@@ -3,7 +3,7 @@ const MEMBERS = [
     id: 'meta',
     icon: '/assets/images/members/MetaDept.png',
     twitter: 'https://twitter.com/m3t4farms',
-    name: 'meta',
+    name: 'Meta',
     description: '',
     tokens: ['AVAX', 'AVAWARE']
   },
@@ -19,7 +19,7 @@ const MEMBERS = [
     id: 'Best_coder_NA',
     icon: 'https://pbs.twimg.com/profile_images/1459774477688967173/aNSwcswq_400x400.jpg',
     twitter: 'https://twitter.com/Best_coder_NA',
-    name: 'Leo Pangolin',
+    name: 'Leo',
     description: '',
     tokens: ['AVAX', 'PNG', 'SPERPA']
   },
@@ -43,7 +43,7 @@ const MEMBERS = [
     id: 'cheetah_slow',
     icon: '/assets/images/members/Slowcheetah.png',
     twitter: 'https://twitter.com/cheetah_slow',
-    name: 'Slowcheetah',
+    name: 'SlowCheetah',
     description: '',
     tokens: ['AVAX', 'YAK']
   },
@@ -59,7 +59,7 @@ const MEMBERS = [
     id: 'DefiCashflows',
     icon: 'https://pbs.twimg.com/profile_images/1433648744537501716/_aUqZfEo_400x400.jpg',
     twitter: 'https://twitter.com/DefiCashflows',
-    name: 'DΞFiCashflow$',
+    name: 'Deficashflows',
     description: '',
     tokens: ['AVAX']
   },
@@ -83,7 +83,7 @@ const MEMBERS = [
     id: 'TamerOvutmen',
     icon: 'https://pbs.twimg.com/profile_images/1459391299543515138/7J9ks2PB_400x400.jpg',
     twitter: 'https://twitter.com/TamerOvutmen',
-    name: 'Tamer Ovutmen, PhD',
+    name: 'Tamer Ovutmen',
     description: '',
     tokens: ['AVAX', 'PNG']
   },
@@ -147,7 +147,7 @@ const MEMBERS = [
     id: 'Benny',
     icon: '/assets/images/members/Benny.png',
     twitter: '',
-    name: 'benny',
+    name: 'Benny',
     description: '',
     tokens: ['AVAX']
   },
