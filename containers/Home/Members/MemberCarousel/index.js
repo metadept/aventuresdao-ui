@@ -1,11 +1,12 @@
 
-import { memo } from 'react'
+import { memo, useState } from 'react'
 import Image from 'next/image'
 import { makeStyles } from '@material-ui/core/styles'
 import { Grid, Link, Typography } from '@material-ui/core'
 
 import AvawareTokenIcon from 'components/AvawareTokenIcon'
 import TwitterIcon from 'components/Icons/TwitterIcon'
+import MemberModal from '../MemberModal'
 import { PROFILE_BACKGROUND_IMAGE_PATH } from 'utils/constants/image-paths'
 
 const useStyles = makeStyles((theme) => ({
@@ -46,8 +47,8 @@ const useStyles = makeStyles((theme) => ({
   },
   twitter: {
     position: 'absolute',
-    top: 0,
-    right: 0
+    top: -8,
+    right: -8
   },
   rightImage: {
     height: 120,
@@ -59,8 +60,8 @@ const useStyles = makeStyles((theme) => ({
   },
   tokenContainer: {
     position: 'absolute',
-    bottom: 0,
-    right: 0
+    bottom: -16,
+    right: -8
   },
   tokenIcon: {
     marginLeft: theme.spacing(0.5)
@@ -74,13 +75,20 @@ const MemberCarousel = ({
   members
 }) => {
   const classes = useStyles()
+  const [member, setMember] = useState({})
+  const [openModal, setOpenModal] = useState(false)
+
+  const memberHandler = (item) => () => {
+    setMember(item)
+    setOpenModal(true)
+  }
 
   return (
     <div className={classes.container}>
       <Grid container spacing={4}>
         {
           members.map((item) =>
-            <Grid key={item.id} item xs={12} sm={6} md={3}>
+            <Grid key={item.id} item xs={12} sm={6} md={3} onClick={memberHandler(item)} >
               <div className={classes.itemContainer}>
                 <img
                   alt='right-image'
@@ -126,6 +134,14 @@ const MemberCarousel = ({
           )
         }
       </Grid>
+      {
+        openModal &&
+        <MemberModal
+          open={openModal}
+          setOpen={setOpenModal}
+          member={member}
+        />
+      }
     </div>
   )
 }
