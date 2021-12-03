@@ -4,7 +4,7 @@ const MEMBERS = [
     icon: '/assets/images/members/MetaDept.png',
     twitter: 'https://twitter.com/m3t4farms',
     name: 'Meta',
-    description: '',
+    description: 'Meta has been developing and interested in technology his whole life. From hosting companies to flipping content sites to developing projets. He"'"s a full stack developer with a team of sr full stack developers who have tasked themselves with building a maintaing quality online properties.\n\n He is happily to be partaking in the wonderful group of people that has come together here at AVentures and looks forward to helping further the Avalanche ecosystem in anyway he can.',
     tokens: ['AVAX', 'AVAWARE']
   },
   {
