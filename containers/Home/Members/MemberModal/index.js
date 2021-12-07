@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: '100%',
-    maxWidth: 480,
+    maxWidth: 620,
   },
   container: {
     position: 'relative',
@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
   },
   description: {
     fontSize: 14,
-    maxHeight: 150,
+    maxHeight: 220,
     padding: theme.spacing(1),
     overflowY: 'scroll',
     '&::-webkit-scrollbar-track': {
@@ -97,12 +97,16 @@ const MemberModal = ({
       onClose={handleClose}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
-      BackdropProps={{ style: { backdropFilter: 'blur(8px)' } }}
+      BackdropProps={{
+        open: open,
+        style: { backdropFilter: 'blur(8px)' },
+        transitionDuration: { appear: 1000, enter: 1000, exit: 1000 }
+      }}
     >
       <Fade
         in={open}
         timeout={{
-          enter: 2000, exit: 2000
+          enter: 1000, exit: 1000
         }}
       >
         <div className={classes.paper}>
