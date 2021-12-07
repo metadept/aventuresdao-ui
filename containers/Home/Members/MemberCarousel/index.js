@@ -66,9 +66,6 @@ const useStyles = makeStyles((theme) => ({
   tokenIcon: {
     marginLeft: theme.spacing(0.5)
   },
-  description: {
-    padding: theme.spacing(3, 0)
-  }
 }));
 
 const MemberCarousel = ({
@@ -124,11 +121,6 @@ const MemberCarousel = ({
                     ))}
                   </div>
                 </div>
-                {item.description &&
-                  <Typography variant='body2' className={classes.description} >
-                    {item.description}
-                  </Typography>
-                }
               </div>
             </Grid>
           )

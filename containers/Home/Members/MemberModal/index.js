@@ -1,6 +1,7 @@
 import { memo } from 'react';
 import Modal from '@material-ui/core/Modal';
 import Grid from '@material-ui/core/Grid';
+import Fade from '@material-ui/core/Fade';
 import { makeStyles } from '@material-ui/core/styles'
 
 import AvawareTokenIcon from 'components/AvawareTokenIcon'
@@ -98,58 +99,58 @@ const MemberModal = ({
       aria-describedby="modal-modal-description"
       BackdropProps={{ style: { backdropFilter: 'blur(8px)' } }}
     >
-      <div className={classes.paper}>
-        <div className={classes.container}>
-          <img
-            alt='left-image'
-            src={FOOTER_LEFT_IMAGE_PATH}
-            className={classes.leftImage}
-          />
-          <img
-            alt='right-image'
-            src={FOOTER_RIGHT_IMAGE_PATH}
-            className={classes.rightImage}
-          />
-          <div className={classes.infoContainer}>
-            <Grid container spacing={3}>
-              <Grid item xs={12} >
-                <Logo />
+      <Fade
+        in={open}
+        timeout={{
+          enter: 2000, exit: 2000
+        }}
+      >
+        <div className={classes.paper}>
+          <div className={classes.container}>
+            <img
+              alt='left-image'
+              src={FOOTER_LEFT_IMAGE_PATH}
+              className={classes.leftImage}
+            />
+            <img
+              alt='right-image'
+              src={FOOTER_RIGHT_IMAGE_PATH}
+              className={classes.rightImage}
+            />
+            <div className={classes.infoContainer}>
+              <Grid container spacing={3}>
+                <Grid item xs={12} >
+                  <Logo />
+                </Grid>
+                <Grid item xs={4} >
+                  <img
+                    alt={member.id}
+                    src={member.icon}
+                    className={classes.icon}
+                  />
+                </Grid>
+                <Grid item xs={8} >
+                  <div className={classes.description}>
+                    {member.description}
+                  </div>
+                </Grid>
+                <Grid item xs={12} >
+                  <div className={classes.tokenContainer}>
+                    {member.tokens.map((token) => (
+                      <AvawareTokenIcon
+                        key={token}
+                        size={30}
+                        token={token}
+                        className={classes.tokenIcon}
+                      />
+                    ))}
+                  </div>
+                </Grid>
               </Grid>
-              <Grid item xs={4} >
-                <img
-                  alt={member.id}
-                  src={member.icon}
-                  className={classes.icon}
-                />
-              </Grid>
-              <Grid item xs={8} >
-                <div className={classes.description}>
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                </div>
-              </Grid>
-              <Grid item xs={12} >
-                <div className={classes.tokenContainer}>
-                  {member.tokens.map((token) => (
-                    <AvawareTokenIcon
-                      key={token}
-                      size={30}
-                      token={token}
-                      className={classes.tokenIcon}
-                    />
-                  ))}
-                </div>
-              </Grid>
-            </Grid>
+            </div>
           </div>
         </div>
-      </div>
+      </Fade>
     </Modal>
   );
 }

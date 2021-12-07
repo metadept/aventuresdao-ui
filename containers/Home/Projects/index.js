@@ -43,6 +43,11 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    padding: theme.spacing(1),
+    '&:hover': {
+      transform: 'scale(1.05)',
+      transition: `ease-out 0.5s `,
+    },
   },
   icon: {
     width: 281,
