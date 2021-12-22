@@ -41,7 +41,7 @@ const MEMBERS = [
   },
   {
     id: 'ravageur77',
-    icon: 'https://pbs.twimg.com/profile_images/1437356572951392261/HlSm_zcT_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1471317458560630790/hL16jxfi_400x400.jpg',
     twitter: 'https://twitter.com/ravageur77',
     name: 'Ravageur',
     description: <>
@@ -88,7 +88,22 @@ const MEMBERS = [
     icon: 'https://pbs.twimg.com/profile_images/1457818447589609474/bOat_O7b_400x400.jpg',
     twitter: 'https://twitter.com/rogerclu',
     name: 'Roger Lu',
-    description: '',
+    description:
+      <>
+        {`Roger is a Managing Partner of Hazelbrook Capital, an investment & advisory firm focused on crypto opportunities.  He has a particular focus on the Avalanche (AVAX) defi ecosystem as an investor (seed, private & public) & advisor for many leading projects including:`}
+        <br /><br />
+        {`- Avalaunch (XAVA), AVAX's 1st & #1 launchpad`}<br />
+        {`- Yield Yak (YAK), AVAX's 1st & #1 yield farm`}<br />
+        {`- Platypus (PTP), a 1st-of-its-kind stableswap protocol on AVAX`}<br />
+        {`- AVAX Party Animals (APA), the premier NFT project & unofficial mascot of AVAX`}
+        <br /><br />
+        {`Roger is also affiliated with Tekkorp Digital (Nasdaq: TEKKU), a SPAC pursuing large-scale digital gaming acquisitions & blockchain gaming investments.  He was previously a consultant to Ava Labs, the foundation supporting AVAX, on defi strategy.`}
+        <br /><br />
+        {`Prior to AVentures & Hazelbrook, Roger served senior leadership roles in Strategy & Finance at The Stars Group (Nasdaq: TSG), where he helped transform TSG into the largest, publicly listed Online Gaming company in the world.  TSG was acquired by Flutter Entertainment (LSE: FLTR) for €10b in 2020.  While at TSG, he also helped incubate & launch FOX Bet, an US online sportsbetting business in partnership with FOX Sports, which scaled from start-up into a 200 person, $100m revenue business.`}
+        <br /><br />
+        {`Before TSG. Roger was a public & private equity investor for over 10 years.  He has an MBA from Stanford & a BS in Finance from Wharton.`}
+      </>
+    ,
     tokens: ['AVAX']
   },
   {
@@ -106,7 +121,7 @@ const MEMBERS = [
   },
   {
     id: 'TamerOvutmen',
-    icon: 'https://pbs.twimg.com/profile_images/1459391299543515138/7J9ks2PB_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1473197713122598918/uyOQBThZ_400x400.jpg',
     twitter: 'https://twitter.com/TamerOvutmen',
     name: 'Tamer Ovutmen',
     description: <>
@@ -122,7 +137,7 @@ const MEMBERS = [
   },
   {
     id: 'crytovan',
-    icon: 'https://pbs.twimg.com/profile_images/1460146263954018308/ZcPjp16A_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1473281723941199874/eD_pLFTP_400x400.jpg',
     twitter: 'https://twitter.com/crytovan',
     name: 'Sevan',
     description: <>
@@ -132,14 +147,14 @@ const MEMBERS = [
     </>,
     tokens: ['AVAX']
   },
-  {
-    id: 'connorbode',
-    icon: 'https://pbs.twimg.com/profile_images/1320105220576321537/6jrxpmlL_400x400.jpg',
-    twitter: 'https://twitter.com/connorbode',
-    name: 'Connor Bode',
-    description: '',
-    tokens: ['AVAX']
-  },
+  // {
+  //   id: 'connorbode',
+  //   icon: 'https://pbs.twimg.com/profile_images/1320105220576321537/6jrxpmlL_400x400.jpg',
+  //   twitter: 'https://twitter.com/connorbode',
+  //   name: 'Connor Bode',
+  //   description: '',
+  //   tokens: ['AVAX']
+  // },
   {
     id: 'DaimonLaw',
     icon: 'https://pbs.twimg.com/profile_images/1448639594904363014/s1s1zq6S_400x400.jpg',
@@ -160,14 +175,14 @@ const MEMBERS = [
     </>,
     tokens: ['AVAX']
   },
-  {
-    id: 'YakMan',
-    icon: 'https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png',
-    twitter: 'https://twitter.com/YakMan',
-    name: 'YakMan',
-    description: '',
-    tokens: ['AVAX', 'YAK']
-  },
+  // {
+  //   id: 'YakMan',
+  //   icon: 'https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png',
+  //   twitter: 'https://twitter.com/YakMan',
+  //   name: 'YakMan',
+  //   description: '',
+  //   tokens: ['AVAX', 'YAK']
+  // },
   {
     id: 'StovenLabs',
     icon: 'https://pbs.twimg.com/profile_images/1466531460068913161/fOfmL65p_400x400.jpg',
@@ -178,20 +193,20 @@ const MEMBERS = [
     </>,
     tokens: ['AVAX', 'PNG']
   },
-  {
-    id: 'exk200',
-    icon: 'https://pbs.twimg.com/profile_images/1459600370242625545/bKPnyywB_400x400.jpg',
-    twitter: 'https://twitter.com/exk200',
-    name: 'Eric Kang',
-    description: '',
-    tokens: ['AVAX', 'AVALABS']
-  },
+  // {
+  //   id: 'exk200',
+  //   icon: 'https://pbs.twimg.com/profile_images/1459600370242625545/bKPnyywB_400x400.jpg',
+  //   twitter: 'https://twitter.com/exk200',
+  //   name: 'Eric Kang',
+  //   description: '',
+  //   tokens: ['AVAX', 'AVALABS']
+  // },
   {
     id: 'Benny',
     icon: '/assets/images/members/Benny.png',
     twitter: '',
     name: 'Benny',
-    description: '',
+    description: 'Benny is a developer and an academic. He has been involved with various projects on Avalanche, Ethereum and Near working on smart contracts, analytics and tokenomics.',
     tokens: ['AVAX']
   },
   {
@@ -203,6 +218,18 @@ const MEMBERS = [
       Rahul is an analyst at Hartmann Capital, a crypto focused hedge fund where he specializes in privacy finance and the Cosmos ecosystem. Rahul comes from a strategy consulting background and uses his skills to analyze the economics of new and existing protocols to recommend investment opportunities. Rahul is deeply embedded within various Cosmos project communities and actively engages project founders to source deals as well as monitor ecosystem progress as part of his role as a Cosmos DeFi SME.
     </>,
     tokens: ['OG']
+  },
+  {
+    id: 'nathanWindsor',
+    icon: '/assets/images/members/NathanWindsor.png',
+    twitter: '',
+    name: 'Nathan Windsor',
+    description:
+      <>
+        Nathan Windsor is an AVAX investor and validator. His capital group, Latinum Capital, runs validators on AVAX, Nodle, and MINA, Axelar, and invests in early stage AVAX projects including the AVAX ecosystem fund, Blizzard. His company CertifiedNFT.io, a real world asset NFT platform on ALGO and AVAX launched in November 2021. His company Voltamarket.io is also an AVAX grant recipient to tokenize stocks on AVAX. His development shop, Consider It Done, specialises in building EIP implementations, Blockchain Indexing, Access Optimization, Block Explorers, DApps, Smart Contract Development, Cross-chain Interoperability, Blockchain DevOps, and POS Validator/Node Hosting/Management Monitoring. They are currently working on building LAVAX, OPTY, and more. He holds a B.S. from Cornell University.
+      </>
+    ,
+    tokens: ['AVAX']
   },
 ]
 
