@@ -21,7 +21,7 @@ const MEMBERS = [
   },
   {
     id: 'Best_coder_NA',
-    icon: 'https://pbs.twimg.com/profile_images/1459774477688967173/aNSwcswq_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1473240664129228802/3waZcnPG_400x400.jpg',
     twitter: 'https://twitter.com/Best_coder_NA',
     name: 'Leo',
     description: <>
@@ -61,7 +61,7 @@ const MEMBERS = [
   },
   {
     id: 'CederNets',
-    icon: 'https://pbs.twimg.com/profile_images/1372237642054598656/czQum58J_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1474418505864908815/K7uitA1Z_400x400.jpg',
     twitter: 'https://twitter.com/CederNets',
     name: 'CederNet',
     description: <>
@@ -73,7 +73,7 @@ const MEMBERS = [
   },
   {
     id: 'DefiCashflows',
-    icon: 'https://pbs.twimg.com/profile_images/1433648744537501716/_aUqZfEo_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1473078761805553670/OhWT3xgQ_400x400.jpg',
     twitter: 'https://twitter.com/DefiCashflows',
     name: 'Deficashflows',
     description: <>
@@ -121,7 +121,7 @@ const MEMBERS = [
   },
   {
     id: 'TamerOvutmen',
-    icon: 'https://pbs.twimg.com/profile_images/1473197713122598918/uyOQBThZ_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1473602634175160321/7kBoOZKn_400x400.jpg',
     twitter: 'https://twitter.com/TamerOvutmen',
     name: 'Tamer Ovutmen',
     description: <>
@@ -137,7 +137,7 @@ const MEMBERS = [
   },
   {
     id: 'crytovan',
-    icon: 'https://pbs.twimg.com/profile_images/1473281723941199874/eD_pLFTP_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1473660837944512520/Y2cQRLaP_400x400.jpg',
     twitter: 'https://twitter.com/crytovan',
     name: 'Sevan',
     description: <>
@@ -167,7 +167,7 @@ const MEMBERS = [
   },
   {
     id: 'visokodrustvo',
-    icon: 'https://pbs.twimg.com/profile_images/1288425001004290049/UyvuoVRa_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1474313057899888649/gLCPV0FC_400x400.jpg',
     twitter: 'https://twitter.com/visokodrustvo',
     name: 'Mihajlo Popesku',
     description: <>
@@ -211,7 +211,7 @@ const MEMBERS = [
   },
   {
     id: 'patel_crypto',
-    icon: 'https://pbs.twimg.com/profile_images/1421884408227766280/eNy3GvQd_400x400.jpg',
+    icon: 'https://pbs.twimg.com/profile_images/1477642008038719496/I19ioVAE_400x400.jpg',
     twitter: 'https://twitter.com/patel_crypto',
     name: 'Rahul',
     description: <>
