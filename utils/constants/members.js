@@ -13,7 +13,7 @@ const MEMBERS = [
   },
   {
     id: 'Jomari_P',
-    icon: 'https://pbs.twimg.com/profile_images/1444996045583241216/UF_Aj4IH_400x400.jpg',
+    icon: '/assets/images/members/JomariPeterson.jpg',
     twitter: 'https://twitter.com/Jomari_P',
     name: 'Jomari Peterson',
     description: 'Jomari Peterson is the Core Strategist for Snowball and Axial.  Jomari Peterson has significant experience in the decentralized technology spaces. He built his first organization in the space in 2017, the  Quantum Resistant Ledger. Under his leadership they raised $4.16 million dollars, leading to a $100 Million+ Valuation.  He also developed a collateral free lending solution, the Digital Reserve and an innovative gaming mechanism for Finite Games. As a serial entrepreneur, academic and public speaker, Jomari  Peterson brings vision, a strong understanding of the business landscape and an interdisciplinary technical background to the establishment of blockchain related features.  He is a PhD Candidate at Carnegie Mellon University in Engineering & Public Policy with a focus on risk assessment and system design. Prior to Carnegie Mellon, he received his B.S. and MBA in Strategy & Logistics from Howard University.',
@@ -21,7 +21,7 @@ const MEMBERS = [
   },
   {
     id: 'Best_coder_NA',
-    icon: 'https://pbs.twimg.com/profile_images/1473240664129228802/3waZcnPG_400x400.jpg',
+    icon: '/assets/images/members/Leo.jpg',
     twitter: 'https://twitter.com/Best_coder_NA',
     name: 'Leo',
     description: <>
@@ -31,7 +31,7 @@ const MEMBERS = [
   },
   {
     id: 'jtrollip',
-    icon: 'https://pbs.twimg.com/profile_images/1454309135932035072/i1KWVT6g_400x400.jpg',
+    icon: '/assets/images/members/JustinTrollip.jpg',
     twitter: 'https://twitter.com/jtrollip',
     name: 'Justin Trollip',
     description: <>
@@ -41,7 +41,7 @@ const MEMBERS = [
   },
   {
     id: 'ravageur77',
-    icon: 'https://pbs.twimg.com/profile_images/1471317458560630790/hL16jxfi_400x400.jpg',
+    icon: '/assets/images/members/Dylan.jpg',
     twitter: 'https://twitter.com/ravageur77',
     name: 'Ravageur',
     description: <>
@@ -61,7 +61,7 @@ const MEMBERS = [
   },
   {
     id: 'CederNets',
-    icon: 'https://pbs.twimg.com/profile_images/1474418505864908815/K7uitA1Z_400x400.jpg',
+    icon: '/assets/images/members/CederNet.jpg',
     twitter: 'https://twitter.com/CederNets',
     name: 'CederNet',
     description: <>
@@ -73,7 +73,7 @@ const MEMBERS = [
   },
   {
     id: 'DefiCashflows',
-    icon: 'https://pbs.twimg.com/profile_images/1473078761805553670/OhWT3xgQ_400x400.jpg',
+    icon: '/assets/images/members/Deficashflows.jpg',
     twitter: 'https://twitter.com/DefiCashflows',
     name: 'Deficashflows',
     description: <>
@@ -85,7 +85,7 @@ const MEMBERS = [
   },
   {
     id: 'rogerclu',
-    icon: 'https://pbs.twimg.com/profile_images/1457818447589609474/bOat_O7b_400x400.jpg',
+    icon: '/assets/images/members/RogerLu.jpg',
     twitter: 'https://twitter.com/rogerclu',
     name: 'Roger Lu',
     description:
@@ -108,7 +108,7 @@ const MEMBERS = [
   },
   {
     id: 'oztimoore',
-    icon: 'https://pbs.twimg.com/profile_images/1460772991281807367/qMC_Gl5v_400x400.jpg',
+    icon: '/assets/images/members/EmreOztimur.jpg',
     twitter: 'https://twitter.com/oztimoore',
     name: 'Emre Oztimur',
     description:
@@ -121,7 +121,7 @@ const MEMBERS = [
   },
   {
     id: 'TamerOvutmen',
-    icon: 'https://pbs.twimg.com/profile_images/1473602634175160321/7kBoOZKn_400x400.jpg',
+    icon: '/assets/images/members/Tamer.jpg',
     twitter: 'https://twitter.com/TamerOvutmen',
     name: 'Tamer Ovutmen',
     description: <>
@@ -137,7 +137,7 @@ const MEMBERS = [
   },
   {
     id: 'crytovan',
-    icon: 'https://pbs.twimg.com/profile_images/1473660837944512520/Y2cQRLaP_400x400.jpg',
+    icon: '/assets/images/members/Sevan.jpg',
     twitter: 'https://twitter.com/crytovan',
     name: 'Sevan',
     description: <>
@@ -157,7 +157,7 @@ const MEMBERS = [
   // },
   {
     id: 'DaimonLaw',
-    icon: 'https://pbs.twimg.com/profile_images/1448639594904363014/s1s1zq6S_400x400.jpg',
+    icon: '/assets/images/members/DaimonLaw.jpg',
     twitter: 'https://twitter.com/DaimonLaw',
     name: 'Paul Imseih',
     description: <>
@@ -167,7 +167,7 @@ const MEMBERS = [
   },
   {
     id: 'visokodrustvo',
-    icon: 'https://pbs.twimg.com/profile_images/1474313057899888649/gLCPV0FC_400x400.jpg',
+    icon: '/assets/images/members/Mihajlo.jpg',
     twitter: 'https://twitter.com/visokodrustvo',
     name: 'Mihajlo Popesku',
     description: <>
@@ -185,7 +185,7 @@ const MEMBERS = [
   // },
   {
     id: 'StovenLabs',
-    icon: 'https://pbs.twimg.com/profile_images/1466531460068913161/fOfmL65p_400x400.jpg',
+    icon: '/assets/images/members/StovenLabs.jpg',
     twitter: 'https://twitter.com/StovenLabs',
     name: 'StovenLabs',
     description: <>
@@ -211,7 +211,7 @@ const MEMBERS = [
   },
   {
     id: 'patel_crypto',
-    icon: 'https://pbs.twimg.com/profile_images/1477642008038719496/I19ioVAE_400x400.jpg',
+    icon: '/assets/images/members/PatelJeet.jpg',
     twitter: 'https://twitter.com/patel_crypto',
     name: 'Rahul',
     description: <>
