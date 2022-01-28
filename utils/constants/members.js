@@ -219,18 +219,6 @@ const MEMBERS = [
     </>,
     tokens: ['OG']
   },
-  {
-    id: 'nathanWindsor',
-    icon: '/assets/images/members/NathanWindsor.png',
-    twitter: '',
-    name: 'Nathan Windsor',
-    description:
-      <>
-        Nathan Windsor is an AVAX investor and validator. His capital group, Latinum Capital, runs validators on AVAX, Nodle, and MINA, Axelar, and invests in early stage AVAX projects including the AVAX ecosystem fund, Blizzard. His company CertifiedNFT.io, a real world asset NFT platform on ALGO and AVAX launched in November 2021. His company Voltamarket.io is also an AVAX grant recipient to tokenize stocks on AVAX. His development shop, Consider It Done, specialises in building EIP implementations, Blockchain Indexing, Access Optimization, Block Explorers, DApps, Smart Contract Development, Cross-chain Interoperability, Blockchain DevOps, and POS Validator/Node Hosting/Management Monitoring. They are currently working on building LAVAX, OPTY, and more. He holds a B.S. from Cornell University.
-      </>
-    ,
-    tokens: ['AVAX']
-  },
 ]
 
 export default MEMBERS
